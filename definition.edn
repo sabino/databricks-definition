@@ -1,0 +1,5 @@
+{:name :airflow
+ :squad :data-infra
+ :environments {:cantareira #{:cantareira}}
+ :workload {:}
+ }
