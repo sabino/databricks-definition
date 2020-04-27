@@ -1,2 +1,2 @@
 databricks-api
-edn_format
+dictdiffer

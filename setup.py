@@ -12,7 +12,7 @@ with open('LICENSE') as f:
 setup(
     name='databricks-definition',
     version='0.1.0',
-    description='Coordinate Databricks Clusters and Libraries',
+    description='Coordinate Databricks Clusters creation, permissions and libraries',
     long_description=readme,
     author='Felipe Sabino',
     license=license,

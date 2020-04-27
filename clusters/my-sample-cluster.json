@@ -1,0 +1,19 @@
+{
+  "cluster_name": "my-sample-cluster",
+  "spark_version": "7.0.x-scala2.12",
+  "node_type_id": "m5.large",
+  "num_workers": 1,
+  "aws_attributes": {
+    "zone_id": "us-east-1f",
+    "first_on_demand": 0,
+    "availability": "SPOT_WITH_FALLBACK",
+    "spot_bid_price_percent": 100,
+    "ebs_volume_type": "GENERAL_PURPOSE_SSD",
+    "ebs_volume_count": 3,
+    "ebs_volume_size": 100
+  },
+  "custom_tags": {
+    "SQUAD": "MY_SQUAD_HERE"
+  },
+  "autotermination_minutes": 10
+}
